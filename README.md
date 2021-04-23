@@ -8,16 +8,16 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 
 * A link to a Trello board for the project
 
-    * Checkout [the public Trello board] TODO
+    * Checkout [the public Trello board] 
 
 * A link to a spreadsheet that includes the original and final project plan
 
-    * Checkout [project-management-example.xlsx] TODO
+    * Checkout [project-management-example.xlsx] 
 
 ## Instructions
 
 * Architectural Diagram (Shows how key parts of the system work)
-        TODO
+    * Checkout [arch_diagram_cicd diagram ]
 
 * Project cloned into Azure Cloud Shell
 
@@ -25,8 +25,7 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 
     * Copy and paste the public SSH key to github.com (e.g., the file `~/.ssh/id_rsa.pub`);
 
-    * Run `git clone git@github.com:nishansaini/nd_ado_project2.git` to clone the repository into Azure Cloud Shell:
-                TODO
+    * Run `git clone git@github.com:nishansaini/nd_ado_project2.git` to clone the repository
 
 * Project running on Azure Webapp Service
 
@@ -35,7 +34,6 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
     * Wait until the webapp infrastructure is created and verify the frontend:
 
         https://flask-ml-nishan.azurewebsites.net
-        TODO
 
 
     * Update [make_predict_azure_app.sh](make_predict_azure_app.sh) to have the webapp name `flask-ml-nishan` in the POST target line
@@ -48,47 +46,42 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
-    TODO
+    please check the make_all_screenshot picture.
 
 * Output of a test run
 
     * Run: `./make_predict_azure_app.sh`
-
-        TODO
-* Submit the code
+        please check prediction_azure_screenshot screenshot
+        
 
 * Successful deploy of the project in GitHub Actions
 
-    ![GitHub Actions runs](../screenshots/github_actions_runs.png)
-
-    ![A successful GitHub Actions run](../screenshots/successful_github_actions_run.png)
+    ![GitHub Actions runs] GitHub_actions_pass_screenhot 
 
 * Successful deploy of the project in Azure Pipelines [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
 
-    * Create a new service connection to Azure Webapp Service
+    * Create a new service connection to Azure Webapp Service... as shown in ADO_serviceconnection
 
-        TODO
     * Checkout the Azure Pipelines configuration yaml file: [azure-pipelines.yml](../../../../azure-pipelines.yml)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
-
-    TODO
 
 * Successful prediction from deployed flask app in Azure Cloud Shell [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
     * Run the prediction script `./make_predict_azure_app.sh` after the webapp is online.
+        as shown in prediction_azure_screenshot
 
-       TODO
 * Output of streamed log files from deployed application
-
-    TODO
+    as shown in flask_ml_app_live_Stream_logs_screenshot
 
 ## Enhancements
 
 * Containerize the webapp in a docker image and publish the docker image to a repository such as [Docker Hub](https://hub.docker.com/)
 
 * Deploy a Kubernetes version of the project on Azure Kubernetes Service (AKS) for high scalability and better usability
+
+* Somehow my laptop mic is not working so not able to add voice to the video.
 
 ## Demo 
 
