@@ -8,16 +8,16 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 
 * A link to a Trello board for the project
 
-    * [Trello Board](the public Trello board)
-
+    * Checkout [Trello Board](https://trello.com/b/Ba2Lepjr/ado-flask-ml-webapp)
+   
 * A link to a spreadsheet that includes the original and final project plan
 
-    * Checkout [project-management-example.xlsx] 
+    * Checkout [project management xlsx](./project-management-example.xlsx)
 
 ## Instructions
 
 * Architectural Diagram (Shows how key parts of the system work)
-    * Checkout [arch_diagram_cicd diagram ]
+    ![System architecture](./arch_diagram_cicd.png)
 
 * Project cloned into Azure Cloud Shell
 
@@ -35,6 +35,7 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 
         https://flask-ml-nishan.azurewebsites.net
 
+![web app on azure](./flask_ml_nishan_screenshot.png)
 
     * Update [make_predict_azure_app.sh](make_predict_azure_app.sh) to have the webapp name `flask-ml-nishan` in the POST target line
 
@@ -47,16 +48,17 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
     please check the make_all_screenshot picture.
+     ![make all output](./make_all_screenshot.png)
 
 * Output of a test run
 
     * Run: `./make_predict_azure_app.sh`
-        please check prediction_azure_screenshot screenshot
+        ![Prediction output](./prediction_azure_screenshot.png)
         
 
 * Successful deploy of the project in GitHub Actions
 
-    ![GitHub Actions runs] GitHub_actions_pass_screenhot 
+    ![GitHub Actions runs](./GitHub_actions_pass_screenhot.png)
 
 * Successful deploy of the project in Azure Pipelines [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
 
@@ -70,10 +72,11 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 The output should look similar to this:
 
     * Run the prediction script `./make_predict_azure_app.sh` after the webapp is online.
-        as shown in prediction_azure_screenshot
+
+        ![Prediction output](./prediction_azure_screenshot.png)
 
 * Output of streamed log files from deployed application
-    as shown in flask_ml_app_live_Stream_logs_screenshot
+    ![logs output](./flask_ml_app_live_Stream_logs_screenshot.png)
 
 ## Enhancements
 
