@@ -63,12 +63,15 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 
     * Create a new service connection to Azure Webapp Service... as shown in ADO_serviceconnection
 
-    * Checkout the Azure Pipelines configuration yaml file: [azure-pipelines.yml](../../../../azure-pipelines.yml)
-
+        ![ADO Pipeline](./ADO_serviceconnection.png)
+ 
+    * Checkout the Azure Pipelines configuration yaml file:
+        * ![pipeline output](./Pipeline_Code.png)
+        
 * Running Azure App Service from Azure Pipelines automatic deployment
    Pileline keeps failing due to "##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please reach out to azpipelines-freetier@microsoft.com with your name and organization name". So I have sent out email as well to them MS team, but no response yet
 
-    * ![pipeline output](./Pipeline_Run_Failure_with_microsoft_error.png)
+   * ![ADO Service Connection ](./Pipeline_Run_Failure_with_microsoft_error.png)
    
 * Successful prediction from deployed flask app in Azure Cloud Shell [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
