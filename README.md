@@ -1,5 +1,6 @@
 # Overview
 
+[![Python application test with Github Actions](https://github.com/nishansaini/nd_ado_project2/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/nishansaini/nd_ado_project2/actions/workflows/main.yml)
 
 This is the second project of Udacity DevOps Engineer for Microsoft Azure Nanodegree Program.
 
