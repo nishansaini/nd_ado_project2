@@ -55,6 +55,9 @@ Link to the screencast which is uploaded on youtube   >>>>>>    [Youtube Screenc
     please check the make_all_screenshot picture.
      ![make all output](./make_all_screenshot.png)
 
+* Load test an application using Locust (swarm the target website from localhost)
+   ![Load Testing](./Locust_screenshot.png)
+
 * Output of a test run
 
     * Run: `./make_predict_azure_app.sh`
@@ -70,9 +73,9 @@ Link to the screencast which is uploaded on youtube   >>>>>>    [Youtube Screenc
     * Create a new service connection to Azure Webapp Service... as shown in ADO_serviceconnection
 
         ![ADO Pipeline](./ADO_serviceconnection.png)
- 
+     
     * Checkout the Azure Pipelines configuration yaml file:
-        * ![pipeline output](./Pipeline_Code.png)
+        * ![pipeline output](./ADO_Deployed_Webapp.png)
         
 * Running Azure App Service from Azure Pipelines automatic deployment
    Pileline keeps failing due to "##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please reach out to azpipelines-freetier@microsoft.com with your name and organization name". So I have sent out email as well to them MS team, but no response yet
