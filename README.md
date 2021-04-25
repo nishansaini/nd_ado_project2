@@ -8,7 +8,7 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
 
 * A link to a Trello board for the project
 
-    * Checkout [the public Trello board] 
+    * [Trello Board](the public Trello board)
 
 * A link to a spreadsheet that includes the original and final project plan
 
