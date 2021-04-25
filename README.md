@@ -34,8 +34,7 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
     * Wait until the webapp infrastructure is created and verify the frontend:
 
         https://flask-ml-nishan.azurewebsites.net
-
-![web app on azure](./flask_ml_nishan_screenshot.png)
+        ![web app on azure](./flask_ml_nishan_screenshot.png)
 
     * Update [make_predict_azure_app.sh](make_predict_azure_app.sh) to have the webapp name `flask-ml-nishan` in the POST target line
 
